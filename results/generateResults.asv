@@ -1,0 +1,19 @@
+resultPath='C:\Users\user\Dropbox\mohamed vanet\clustering v1.0\results\';
+
+
+for i=2:9
+    
+    cd([resultPath num2str(i)]);
+    load('D1.mat');
+    load('D2.mat');
+    avgStable=mean(D1);
+    avgCoverage=mean(D2);
+    load('expectedIncomingVehicles.mat');
+    load('expectedTimeInterval.mat')
+    
+    
+end 
+
+
+
+

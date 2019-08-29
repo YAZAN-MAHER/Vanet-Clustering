@@ -1,0 +1,7 @@
+how to use:
+1- use tester.m in the clustering v1.0 to generate simulation senarios results and save them as mat files
+2- copy the resulted file (.mat) to the (Update ver 2 / code) folder
+3- to generate the results of benchmark run mainFile-Vanet1_1.m after changing the (load('Nodes3.mat')) to the correct file   
+4- to generate the results of update run mainFile-Vanet5_1.m after changing the (load('Nodes3.mat')) to the correct file   
+5-to get measurments call this function:
+normalizedResults('Vanet5_1_Clustring_Results','Vanet1_1_Clustring_Results')
